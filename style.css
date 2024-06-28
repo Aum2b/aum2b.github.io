@@ -119,6 +119,22 @@ main::before {
     z-index: 2; /* Ensure content is above the overlay */
 }
 
+/* Ajoutez ces styles pour rendre le numéro de téléphone cliquable et stylisé */
+#location a {
+    text-decoration: none; /* Supprimez la décoration de lien par défaut */
+    color: #fff; /* Couleur du lien */
+    font-weight: bold; /* Mettez en gras pour attirer l'attention */
+    transition: color 0.3s ease; /* Transition de couleur douce */
+
+    /* Optionnel : Curseur pointer pour indiquer que c'est un lien cliquable */
+    cursor: pointer;
+}
+
+#location a:hover {
+    color: #0056b3; /* Couleur du lien au survol */
+}
+
+
 #completion-percentage {
     font-size: 1.5rem;
     font-weight: bold;
